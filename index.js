@@ -21,7 +21,7 @@ mongoose
   });
 app.use(cors());
 app.use(express.json());
-app.get("/api/test", (req, res) => {
+app.get("/", (req, res) => {
   res.send("<h1>Working</h1>");
 });
 
