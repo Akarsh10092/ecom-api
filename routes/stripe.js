@@ -49,7 +49,7 @@ router.post("/payment", async (req, res) => {
     ],
     line_items,
     mode: "payment",
-    success_url: "http://localhost:3000/success",
+    success_url: "https://ecom-app-one.vercel.app/success",
     cancel_url: "http://localhost:3000/cart",
   });
 
